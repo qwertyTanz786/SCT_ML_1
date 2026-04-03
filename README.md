@@ -1,27 +1,27 @@
-# 🏠 House Price Prediction using Linear Regression
+# House Price Prediction using Linear Regression
 
-## 🚀 Overview
+## Overview
 This project builds a **Linear Regression model** to predict house prices based on various housing features.  
 The model uses **log transformation** to improve performance and achieve better accuracy.
 
 ---
 
-## 🎯 Objective
+## Objective
 - Predict house prices accurately 📈  
 - Improve model performance using transformations  
 - Achieve a balance between simplicity and effectiveness  
 
 ---
 
-## 🧰 Tech Stack
-- Python 🐍  
-- Pandas 📊  
-- NumPy 🔢  
-- Scikit-learn 🤖  
+## Tech Stack
+- Python  
+- Pandas   
+- NumPy  
+- Scikit-learn  
 
 ---
 
-## 📂 Dataset
+## Dataset
 The dataset contains housing-related features such as:
 - Property size  
 - Number of rooms  
@@ -31,7 +31,7 @@ Basic preprocessing was performed by removing unnecessary columns.
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 - Removed irrelevant columns (`id`, `date`)  
 - Split dataset into:
   - Features (`X`)  
@@ -39,7 +39,7 @@ Basic preprocessing was performed by removing unnecessary columns.
 
 ---
 
-## 🔄 Key Technique: Log Transformation
+## Key Technique: Log Transformation
 
 To improve model performance:
 
@@ -51,7 +51,7 @@ To improve model performance:
 
 ---
 
-## 🤖 Model Used
+## Model Used
 ### Linear Regression
 - Simple and interpretable model  
 - Assumes linear relationships between features and target  
@@ -59,51 +59,51 @@ To improve model performance:
 
 ---
 
-## 🔀 Train-Test Split
+## Train-Test Split
 - 80% Training Data  
 - 20% Testing Data  
 - Random state used for reproducibility  
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Value |
 |--------|------|
-| 📉 Mean Squared Error (Log Scale) | **0.0653** |
-| 📈 R² Score (Log Scale) | **0.7710** |
+| Mean Squared Error (Log Scale) | **0.0653** |
+| R² Score (Log Scale) | **0.7710** |
 
 ---
 
-## 📈 Interpretation
+## Interpretation
 
-### ✅ R² Score ≈ 0.77
+### R² Score ≈ 0.77
 - The model explains **77% of the variance** in house prices  
 - Good performance for a linear model  
 
-### ✅ MSE ≈ 0.065 (Log Scale)
+### MSE ≈ 0.065 (Log Scale)
 - Indicates low prediction error  
 - Shows stable model performance  
 
 ---
 
-## ⚡ Performance Summary
+## Performance Summary
 
-- ⚡ Fast training  
-- 📈 Good accuracy for Linear Regression  
-- 📉 Reduced error using log transformation  
-- 🔄 Stable predictions
+- Fast training  
+- Good accuracy for Linear Regression  
+- Reduced error using log transformation  
+- Stable predictions
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 - Log transformation significantly improves regression performance  
 - Linear Regression has limitations with complex data  
 - Feature selection and preprocessing are crucial  
 
 ---
 
-## 🙌 Author
+## Author
 **Tanishq Panchal**
 
 ---
